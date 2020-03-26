@@ -18,6 +18,9 @@ git init <repository_name>
 git config --global user.name "<your_name>"
 git config --global user.email "<your_email_address>"
 
+## copy/clone contents of another repository
+git clone <link_to_remote_repository>
+
 ## main commands - used 80% of time
 
 ### check files added/staged
@@ -80,4 +83,4 @@ git remote -a
 git pull <remote_name>/<remote_branch_name> <local_branch_name>
 
 # push branch to remote
-git push <remote_name> <local_branch_name>
+git push -u <remote_name> <local_branch_name>
