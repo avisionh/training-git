@@ -12,7 +12,11 @@ cd ../
 
 # git
 ## initialise git
-git init
+git init <repository_name>
+
+## configure user name
+git config --global user.name "<your_name>"
+git config --global user.email "<your_email_address>"
 
 ## main commands - used 80% of time
 
