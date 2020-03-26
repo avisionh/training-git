@@ -3,6 +3,26 @@ Welcome to this repository of training materials for using Git to version-contro
 
 The training materials will be written in **Git Bash** so we will mostly be interfacing via the command terminal.
 
+***
+
+## Project Organization
+
+    ├── LICENSE
+    │
+    ├── README.md               <- The top-level README for developers using this project.
+    │
+    ├── .gitignore              <- Files and directories to be ignored by git.
+    │
+    ├── image                   <- Store image files used in this project.
+    │
+    ├── cheatsheet.sh           <- Quick-glance of key command terminal and git commands.
+    ├── styleguide_git.md       <- Style guide on (opinionated) good Git working practice.
+    ├── docs                    <- Store documents to host of GitHub pages.
+    │   └── guide.md            <- Information on more complicated Git-related stuff.
+    │
+    
+***
+
 ## Who are these training materials for?
 In no ways is this training material meant to be a comprehensive nor exhuastive guide. Instead, it is designed with the enterprise/business user in mind.
 
