@@ -1,0 +1,6 @@
+[book]
+authors = ["avisionh"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Training: Git"
