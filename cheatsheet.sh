@@ -35,6 +35,9 @@ git log -n
 ### add/stage a file
 git add <file_name>
 
+### add/stage all files in a folder
+git add <folder_name>/*
+
 ### add/stage all files changed since last commit
 git add .
 
@@ -84,3 +87,26 @@ git pull <remote_name>/<remote_branch_name> <local_branch_name>
 
 # push branch to remote
 git push -u <remote_name> <local_branch_name>
+
+
+# dangerous commands
+## remove all trace of a folder or file from Git history
+git filter-branch -f --index-filter 'git rm -r --cached --ignore-unmatch <path_to_file_or_folder' HEAD
+
+## if your changes already on remote
+### then need to force push to remote
+### as remote will have historical folder or file
+### --force-with-lease allows force push to fail
+### if there are new commits on remote that you didn't expect
+### such as one by a fellow collaborator
+### people who have already cloned your repo
+### will face issues so recommend they re-clone your repo
+### and work off of that
+git push -f <remote_name> <branch_name> --force-with-lease
+
+# miscellaneous commands
+## un-stage staged files
+git restore <file_name>
+
+## remove unstaged files (includes deleting them)
+git rm <file_name>
