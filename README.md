@@ -1,4 +1,7 @@
 # Training: Git
+
+[![Travis build status](https://travis-ci.org/avisionh/training-git.svg?branch=master)](https://travis-ci.org/github/avisionh/training-git)
+
 Welcome to this repository of training materials for using Git to version-control your code.
 
 The training materials will be written in **Git Bash** so we will mostly be interfacing via the command terminal.
