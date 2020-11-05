@@ -27,5 +27,5 @@ deploy:
   local_dir: book
   keep_history: false
   on:
-    branch: devops/ci-deploy
+    branch: master
   target_branch: gh-pages
