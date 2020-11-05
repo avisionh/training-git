@@ -21,6 +21,7 @@ script:
 deploy:
   provider: pages
   strategy: git
+  edge: true
   cleanup: false
   token: $GITHUB_TOKEN
   local_dir: book
