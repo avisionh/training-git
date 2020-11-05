@@ -23,7 +23,7 @@ deploy:
   strategy: git
   cleanup: false
   token: $GITHUB_TOKEN
-  local_dir: book
+  local_dir: ./book
   keep_history: false
   on:
     branch: master
