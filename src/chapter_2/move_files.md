@@ -25,7 +25,7 @@ Copy from GitHub the URL of the repository that you want to take `folder_x` away
 
 Then enter the following in your terminal/shell.
 
-```shell
+```bash
 # take copy of repo_a onto your local file system
 git clone <repo_a url>
 # move into `repo_a`
@@ -48,7 +48,7 @@ Copy from GitHub the URL of the repository that you want to move `folder_x` to, 
 
 Then enter the following in your terminal/shell:
 
-```shell
+```bash
 # take copy of repo_b onto your local file system
 git clone <repo_b url>
 # move into `repo_b`
