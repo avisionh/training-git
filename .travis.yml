@@ -18,10 +18,10 @@ script:
 
 # publish to GitHub Pages after successful run
 deploy:
-provider: pages
-skip-cleanup: true
-github-token: $GITHUB_TOKEN
-local-dir: book
-keep-history: false
-on:
-  branch: master
+    provider: pages
+    skip-cleanup: true
+    github-token: $GITHUB_TOKEN
+    local-dir: book
+    keep-history: false
+    on:
+      branch: master
