@@ -1,6 +1,19 @@
 [book]
+title = "Training: Git"
 authors = ["avisionh"]
+description = "A minimal guide to learning version-control with Git."
 language = "en"
 multilingual = false
 src = "src"
-title = "Training: Git"
+
+[output.html]
+default-theme = "rust"
+preferred-dark-theme = "navy"
+mathjax-support = true
+git-repository-url = "https://github.com/avisionh/training-git"
+git-repository-icon = "fa-github"
+input-404 = "not-found.md"
+
+[output.html.fold]
+enable = true
+level = 3

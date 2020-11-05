@@ -2,7 +2,9 @@
 Consider the following use-case scenario:
 
 > You add a folder, `folder_x`, to a repo, `repo_a`, and do a bunch of work on it, so subsequently have 15 commits associated to this folder.
+>
 > Perhaps you want to split the massive repo, `repo_a`, into smaller repos, `repo_b`, `repo_c`, ..., so that it is clearer what each repo is doing and managing the dependencies better. You thus want `folder_x` in repo `repo_b`. 
+>
 > You want to move `folder_x` and its git commit history into `repo_b` with minimal of effort. 
 
 Phrased in this way, the problem statement is thus:
@@ -58,3 +60,9 @@ git pull branch-repo-a master --allow-unrelated-histories
 # remove link to repo_a directory as no longer needed
 git remote rm branch-repo-a
 ```
+
+***
+### References
+This section was inspired by the following:
+- [Greg Bayer, 2011](https://gbayer.com/development/moving-files-from-one-git-repository-to-another-preserving-history/)
+- [Arnau Siches, 2020](https://www.seachess.net/notes/git-grafting)
