@@ -1,6 +1,6 @@
 # Training: Git
 
-[![Travis build status](https://travis-ci.org/avisionh/training-git.svg?branch=master)](https://travis-ci.org/github/avisionh/training-git)
+[![Travis build status](https://travis-ci.org/avisionh/training-git.svg?branch=master)](https://travis-ci.org/github/avisionh/training-git) [![CodeFactor](https://www.codefactor.io/repository/github/avisionh/training-git/badge)](https://www.codefactor.io/repository/github/avisionh/training-git)
 
 Welcome to this repository of training materials for using Git to version-control your code.
 
